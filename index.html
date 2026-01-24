@@ -71,7 +71,8 @@ header p {font-size:1.2em; color:#a0b9d1; animation: fadeInUp 1s;}
 .top-links a:hover {color:#00bcd4;}
 
 /* --- Dark Mode Toggle --- */
-.dark-mode-toggle {position:absolute; top:20px; right:20px; cursor:pointer; padding:8px 12px; background: #f4f7f9; #fff; color:#000; border-radius:5px; font-weight:500; transition: background 0.3s;}
+.dark-mode-toggle {position:absolute; top:20px; right:20px; cursor:pointer; padding:8px 12px;
+ background: #f4f7f9; color:#000; border-radius:5px; font-weight:500; transition: background 0.3s;}
 .dark-mode-toggle:hover {background:grey;}
 
 /* --- Cards --- */
@@ -122,7 +123,7 @@ body.dark-mode .progress-fill {background:#00bcd4;}
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #007bff; #00bcd4;
+    border: 4px solid #007bff; 
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     transition: 
         transform 0.4s ease,
@@ -180,7 +181,7 @@ body.dark-mode .progress-fill {background:#00bcd4;}
 
 /* --- Header Section --- */
 header {
-    background: #87CEFA; #C6FCFF; white; 
+    background: #87CEFA; 
     color:#fff;
     padding:120px 20px 40px;  /* Desktop padding */
     text-align:center;
@@ -209,7 +210,7 @@ body.dark-mode body h2 {
 }
 
 body h3 {
-    color: #007bff; #00bcd4; 
+    color: #007bff; 
 }
 body h4 {
     color: grey; 
@@ -343,9 +344,9 @@ body h5 {
 }
 
 /* Brand colors */
-.circle-social-buttons a.youtube { background-color: #007bff; #073470;}  /* #FF0000; */
-.circle-social-buttons a.linkedin { background-color: #007bff; #073470;}  /* #0A66C2; */
-.circle-social-buttons a.facebook { background-color: #007bff; #1877F2; }
+.circle-social-buttons a.youtube { background-color: #007bff;}  /* #FF0000; */
+.circle-social-buttons a.linkedin { background-color: #007bff;}  /* #0A66C2; */
+.circle-social-buttons a.facebook { background-color: #007bff;}
 .circle-social-buttons a.x { background-color: #1DA1F2; }
 .circle-social-buttons a.github { background-color: #333333; }
 
@@ -394,7 +395,7 @@ th, td {
 tr:nth-child(even){background-color: #f2f2f2}
 
 th {
-  background-color: #87CEFA; #04AA6D;
+  background-color: #87CEFA; 
   color: #fff;
 }
 
@@ -413,6 +414,7 @@ div.tablecontainer {
         <li><a href="#program" class="nav-link">Program</a></li>
         <li><a href="#price" class="nav-link">Pricing</a></li>
         <li><a href="#projects" class="nav-link">Certificate</a></li>
+        <li><a href="#certifications" class="nav-link">Partnership</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
 </nav>
@@ -451,12 +453,12 @@ div.tablecontainer {
                 <source srcset="images/profile.webp" type="image/webp">
                 <img 
                     src="images/profile.png"
-                    alt="Augustine Egar – Security Professional"
+                    alt="Augustine Egar – Cybersecurity Professional"
                     class="profile-photo floating-avatar"
                     loading="lazy"
                     decoding="async">
+              <h3>Augustine Egar, CPP®, ChSP | Expert, ISO TC309</h3>
             </picture>
-            <p>Augustine Egar, CPP®, ChSP | Expert, ISO TC309</p>
         </div>
 
         <!-- Text Column -->
@@ -782,7 +784,7 @@ div.tablecontainer {
 <div class="card fade-right">
     <h3>Highly-Skilled Professionals:</h3>
         <p><strong>We have partnered with academics and highly skilled professionals to deliver efficient and effective service.</strong></p>
-    </div>
+    </div>  
 </div>
 </section>
 
@@ -923,6 +925,3 @@ document.querySelectorAll('.card-img').forEach(img => {
 </script>
 </body>
 </html>
-
-
-
